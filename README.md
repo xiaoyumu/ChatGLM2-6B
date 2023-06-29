@@ -196,7 +196,7 @@ pip install streamlit streamlit-chat
 ```
 然后通过以下命令运行：
 ```shell
-streamlit run web_demo2.py
+streamlit run.py web_demo2.py
 ```
 经测试，如果输入的 prompt 较长的话，使用基于 Streamlit 的网页版 Demo 会更流畅。
 

@@ -6,3 +6,11 @@ gradio
 mdtex2html
 sentencepiece
 accelerate
+
+# readline
+pyreadline3
+langchain
+InstructorEmbedding
+sentence_transformers
+arrow
+pytz
