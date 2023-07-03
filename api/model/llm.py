@@ -23,3 +23,6 @@ class ChatGLMResponse(BaseModel):
     start: Optional[str] = None
     end: Optional[str] = None
     took: Optional[float] = None  # Seconds
+    total_token: Optional[int] = 0
+    prompt_token: Optional[int] = 0
+    response_token: Optional[int] = 0

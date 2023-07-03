@@ -14,3 +14,4 @@ class TextEmbeddingResponse(BaseModel):
     end: Optional[str] = None
     took: Optional[float] = None  # Seconds
     embeddings: Optional[List[List[float]]] = None
+    token: Optional[int] = 0

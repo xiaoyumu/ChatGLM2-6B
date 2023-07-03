@@ -14,3 +14,4 @@ InstructorEmbedding
 sentence_transformers
 arrow
 pytz
+tiktoken

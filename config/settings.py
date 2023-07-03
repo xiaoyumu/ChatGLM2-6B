@@ -4,7 +4,7 @@ from pydantic import BaseSettings
 class Settings(BaseSettings):
     api_name: str = "ChatGLM2-6B API"
     api_version: str = "0.0.1"
-    host: str = "0.0.0.0"
+    host: str = "localhost" # "0.0.0.0"
     port: int = 8081
     debug: bool = True
     prefix: str = ""
