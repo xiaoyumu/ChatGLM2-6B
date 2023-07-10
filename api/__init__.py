@@ -23,6 +23,9 @@ def init_app():
     app.state.settings = settings
     app.state.logger = logger
 
+    # Setup huggingface cache home dir
+    # https://huggingface.co/transformers/v4.0.1/installation.html
+    os.environ['HF_HOME'] = settings.huggingface_home_dir
     # Load torch hub model from ./torch
     # For embeddings
     os.environ['TRANSFORMERS_CACHE'] = settings.torch_hub_dir
